@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #111;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+}
+
+.form, .account-page, .transfer-page {
+    background-color: #1a1a1a;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.6);
+    width: 100%;
+    margin: 10px;
+}
+
+.input-field {
+    width: 100%;
+    padding: 15px;
+    margin: 15px 0;
+    background-color: #333;
+    border: 1px solid #444;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 15px;
+    background-color: #888;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+    background-color: #777;
+}
+
+.error {
+    color: red;
+    display: none;
+    margin-top: 15px;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.hidden {
+    display: none;
+}
+
+.account-page h2, .account-page p {
+    margin: 15px 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+}
+
+.transfer-page input {
+    width: 100%;
+    padding: 15px;
+    margin: 15px 0;
+    background-color: #333;
+    border: 1px solid #444;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+}
